@@ -127,17 +127,26 @@
         </section>
         <section id="contactMe">
           <h1>Contact Me!</h1>
-          <input type="text" placeholder="Enter your name" class="nameHolder" />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="nameHolder"
+            id="nameHolder"
+          />
           <input
             type="email"
             placeholder="Enter your email"
             class="emailHolder"
+            id="emailHolder"
           />
           <textarea
             placeholder="Type your message"
             class="textHolder"
+            id="textHolder"
           ></textarea>
-          <button value="Submit" class="Submit">Submit</button>
+          <button value="Submit" class="Submit" onclick="formValidator()">
+            Submit
+          </button>
           <p>
             *My instagram and linkedin handle are mentioned above in "About me"
             page*
