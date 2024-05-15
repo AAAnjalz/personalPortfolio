@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+body {
+  background: #474f7a;
+}
+
+.nav {
+  background-color: #1f2544;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+}
+li {
+  display: inline;
+  font-size: 20px;
+  float: right;
+  padding: 10px;
+  margin-left: 40px;
+  color: white;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+a li:hover {
+  background-color: lightblue;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.navtext {
+  position: absolute;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+}
+span {
+  color: #474f7a;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 620px;
+  border-radius: 50px;
+  margin-top: 250px;
+}
+
+#about-me h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.underline {
+  padding: 1px;
+  background-color: #1f2544;
+  width: 50px;
+  position: absolute;
+  top: 240px;
+  left: 50px;
+}
+
+.insta {
+  width: 20px;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+}
+
+.instalogo {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 250px;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+.underline1 {
+  padding: 1px;
+  background-color: white;
+  width: 50px;
+  position: absolute;
+  top: 280px;
+  left: 75px;
+  transform: rotate(90deg);
+  width: 20px;
+}
+
+.linkedin {
+  width: 20px;
+  position: absolute;
+  left: 50px;
+  top: 305px;
+}
+
+.linkedinlogo {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 285px;
+  color: black;
+}
+.underline2 {
+  padding: 1px;
+  background-color: white;
+  width: 50px;
+  position: absolute;
+  top: 312px;
+  left: 75px;
+  transform: rotate(90deg);
+  width: 20px;
+}
+
+.intro-text {
+  width: 90%;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.PersonalStatement {
+  color: antiquewhite;
+  margin-top: 450px;
+  margin-left: 600px;
+  text-align: center;
+}
+
+#myprojects {
+  margin-top: 400px;
+  background-color: aliceblue;
+}
+.projects-display {
+  padding: 600px;
+}
+.projectstext {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+}
+
+.calc {
+  position: absolute;
+  border-radius: 20px;
+  width: 200px;
+  top: 1300px;
+  left: 200px;
+}
+.calc:hover {
+  box-shadow: 5px 5px 20px black;
+  transition: 0.2s ease-in-out;
+  top: 1280px;
+}
+
+.calctext {
+  position: absolute;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  top: 1620px;
+  left: 220px;
+}
+
+.projects-display a {
+  color: black;
+}
+
+.weatherforecast {
+  position: absolute;
+  width: 220px;
+  border-radius: 20px;
+  left: 750px;
+  top: 1300px;
+  height: 305px;
+}
+.weatherforecasttext {
+  position: absolute;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  left: 690px;
+  top: 1620px;
+}
+
+.weatherforecast:hover {
+  box-shadow: 5px 5px 20px black;
+  transition: 0.2s ease-in-out;
+  top: 1280px;
+}
+
+.todoimg {
+  width: 220px;
+  border-radius: 20px;
+  height: 310px;
+  position: absolute;
+  left: 1400px;
+  top: 1290px;
+}
+.todoimg:hover {
+  box-shadow: 5px 5px 20px black;
+  transition: 0.2s ease-in-out;
+  top: 1270px;
+}
+
+.todotext {
+  position: absolute;
+  left: 1400px;
+  top: 1620px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.weatherforecastdesc {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  left: 710px;
+  top: 1700px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calcappdesc {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  left: 180px;
+  top: 1700px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.todoappdesc {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  left: 1350px;
+  top: 1700px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pwgenimg {
+  width: 220px;
+  border-radius: 20px;
+  height: 310px;
+  position: absolute;
+  left: 750px;
+  top: 1900px;
+}
+
+.pwgentext {
+  position: absolute;
+  left: 720px;
+  top: 2230px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.pwgenimg:hover {
+  box-shadow: 5px 5px 20px black;
+  transition: 0.2s ease-in;
+  top: 1875px;
+}
+.pwgenappdesc {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 300px;
+  left: 720px;
+  top: 2300px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+#myCV {
+  background-color: black;
+  padding: 40px;
+}
+#myCV h1 {
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: italic;
+}
+#myCV a {
+  color: antiquewhite;
+}
+
+#contactMe {
+  padding: 300px;
+}
+#contactMe h1 {
+  color: white;
+  position: absolute;
+  top: 2520px;
+  left: 800px;
+  font-family: "Protest Riot", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+#contactMe p {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 300px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.nameHolder {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 2600px;
+  width: 300px;
+  left: 700px;
+}
+.emailHolder {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 2650px;
+  width: 300px;
+  left: 700px;
+}
+.textHolder {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 2700px;
+  width: 300px;
+  left: 700px;
+}
+
+.Submit {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 2770px;
+  cursor: pointer;
+  left: 810px;
+}
+.Submit:hover {
+  background-color: #1f2544;
+  transition: 0.2s ease-in-out;
+}
